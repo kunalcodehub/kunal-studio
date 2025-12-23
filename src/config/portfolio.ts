@@ -1,15 +1,15 @@
 // Portfolio Configuration
 // Update these values to personalize your portfolio
 
-import profilePhoto from '../assets/profile-photo.svg';
+import profilePhoto from '../assets/kunal_photo.png';
 
 export const portfolioConfig = {
   // Personal Info
-  name: 'John Doe',
+  name: 'Kunal Sharma',
   title: 'Full Stack Developer',
   tagline: 'Crafting Digital Excellence',
   position: 'Senior Software Engineer',
-  company: 'Tech Corp',
+  company: 'Walmart',
   
   // Profile Photo
   // Option 1: Use a URL (recommended for external images)
@@ -26,25 +26,25 @@ export const portfolioConfig = {
   
   // Social Links
   social: {
-    github: 'https://github.com',
-    linkedin: 'https://linkedin.com',
+    github: 'https://github.com/kunalcodehub',
+    linkedin: 'https://www.linkedin.com/in/ssharmakunal',
     twitter: 'https://twitter.com',
-    email: 'mailto:hello@example.com',
+    email: 'mailto:codewithkunal01@gmail.com',
   },
   
   // Contact Info
   contact: {
-    email: 'hello@johndoe.com',
-    phone: '+1 (555) 123-4567',
-    location: 'San Francisco, CA',
+    email: 'codewithkunal01@gmail.com',
+    phone: '+91 7275750386',
+    location: 'Bangalore, India',
   },
   
   // Resume/CV
-  resumeFile: '/John_Doe_Resume.pdf',
+  resumeFile: '/Kunal_Sharma_CV.pdf',
   
   // WhatsApp
   whatsapp: {
-    number: '+1234567890', // Replace with your WhatsApp number (include country code)
+    number: '+917275750386', // Replace with your WhatsApp number (include country code)
     defaultMessage: 'Hi! I found your portfolio and would like to connect with you.',
   },
 };

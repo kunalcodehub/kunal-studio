@@ -50,7 +50,7 @@ export default function Navbar() {
             className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent"
             whileHover={{ scale: 1.05 }}
           >
-            JD.
+            KS.
           </motion.a>
 
           {/* Desktop Navigation */}

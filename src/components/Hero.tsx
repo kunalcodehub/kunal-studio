@@ -116,10 +116,10 @@ export default function Hero() {
               className="flex gap-4 justify-center lg:justify-start"
             >
               {[
-                { icon: Github, href: 'https://github.com' },
-                { icon: Linkedin, href: 'https://linkedin.com' },
-                { icon: Twitter, href: 'https://twitter.com' },
-                { icon: Mail, href: 'mailto:hello@example.com' },
+                { icon: Github, href: portfolioConfig.social.github },
+                { icon: Linkedin, href: portfolioConfig.social.linkedin },
+                { icon: Twitter, href: portfolioConfig.social.twitter },
+                { icon: Mail, href: portfolioConfig.social.email },
               ].map((social, index) => (
                 <motion.a
                   key={index}

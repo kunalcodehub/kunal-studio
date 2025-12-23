@@ -2,32 +2,33 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
 import { Mail, MapPin, Phone, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import portfolioConfig from '../config/portfolio';
 
 const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    value: 'hello@johndoe.com',
-    href: 'mailto:hello@johndoe.com',
+    value: portfolioConfig.contact.email,
+    href: portfolioConfig.social.email,
   },
   {
     icon: Phone,
     title: 'Phone',
-    value: '+1 (555) 123-4567',
-    href: 'tel:+15551234567',
+    value: portfolioConfig.contact.phone,
+    href: 'tel:+917275750386',
   },
   {
     icon: MapPin,
     title: 'Location',
-    value: 'San Francisco, CA',
+    value: portfolioConfig.contact.location,
     href: '#',
   },
 ];
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
+  { icon: Github, href: portfolioConfig.social.github, label: 'GitHub' },
+  { icon: Linkedin, href: portfolioConfig.social.linkedin, label: 'LinkedIn' },
+  { icon: Twitter, href: portfolioConfig.social.twitter, label: 'Twitter' },
 ];
 
 export default function Contact() {
@@ -148,7 +149,7 @@ export default function Contact() {
                     value={formState.name}
                     onChange={(e) => setFormState({ ...formState, name: e.target.value })}
                     className="w-full px-6 py-4 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-cyan-500 transition-colors"
-                    placeholder="John Doe"
+                    placeholder="Kunal Sharma"
                   />
                 </div>
                 <div>
@@ -159,7 +160,7 @@ export default function Contact() {
                     value={formState.email}
                     onChange={(e) => setFormState({ ...formState, email: e.target.value })}
                     className="w-full px-6 py-4 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-cyan-500 transition-colors"
-                    placeholder="john@example.com"
+                    placeholder="codewithkunal01@gmail.com"
                   />
                 </div>
               </div>

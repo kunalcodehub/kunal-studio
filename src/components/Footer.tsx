@@ -17,10 +17,10 @@ export default function Footer() {
               className="text-2xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent inline-block mb-2"
               whileHover={{ scale: 1.05 }}
             >
-              JD.
+              KS.
             </motion.a>
             <p className="text-gray-500 text-sm flex items-center gap-1 justify-center md:justify-start">
-              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by John Doe
+              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by Kunal Sharma
             </p>
           </div>
 
@@ -51,7 +51,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-white/10 text-center">
           <p className="text-gray-500 text-sm">
-            © {new Date().getFullYear()} John Doe. All rights reserved.
+            © {new Date().getFullYear()} Kunal Sharma. All rights reserved.
           </p>
         </div>
       </div>
